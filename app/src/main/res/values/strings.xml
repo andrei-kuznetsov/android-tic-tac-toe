@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic-tac-toe</string>
+    <string name="game_name">Tic-tac-toe!</string>
+
+    <string name="caption_start">Start the game</string>
+    <string name="caption_rules">Rules</string>
+    <string name="caption_records">Best scores</string>
+    <string name="caption_about">About</string>
+    <string name="rules_text">Tic-tac-toe (or Noughts and crosses,
+        Xs and Os) is a paper-and-pencil game for two players, X and O,
+        who take turns marking the spaces in a 3×3 grid. The player who
+        succeeds in placing three respective marks in a horizontal, vertical,
+        or diagonal row wins the game.</string>
+    <string name="about_text_author">Author: Andrei Kuznetsov</string>
+    <string name="about_text_mailto">mailto:icc2013.android@gmail.com</string>
+    <string name="dialog_game_over">Game over.</string>
+    <string name="wait_your_turn">I\'m taking my time. Wait for your turn please.</string>
+    <string name="caption_start_player_vs_computer">Player vs. Computer</string>
+    <string name="caption_start_computer_vs_player">Computer vs. Player</string>
+    <string name="caption_start_player_vs_player">Player vs. Player</string>
+    <string name="give_up">I give up. You win.</string>
+
+</resources>

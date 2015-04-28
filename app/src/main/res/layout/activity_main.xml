@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="@string/game_name" android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:textSize="36sp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_start_player_vs_computer"
+        android:layout_weight="1"
+        android:id="@+id/bnStartPlayerVsComputer"
+        android:onClick="onBnStart"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_start_computer_vs_player"
+        android:layout_weight="1"
+        android:id="@+id/bnStartComputerVsPlayer"
+        android:onClick="onBnStart"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_start_player_vs_player"
+        android:layout_weight="1"
+        android:id="@+id/bnStartPlayerVsPlayer"
+        android:onClick="onBnStart"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_rules"
+        android:layout_weight="1"
+        android:id="@+id/bnRules" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_about"
+        android:layout_weight="1"
+        android:id="@+id/bnAbout" />
+</LinearLayout>
